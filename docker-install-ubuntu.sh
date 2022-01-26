@@ -41,3 +41,9 @@ sudo usermod -aG docker $USER
 # 10. Verify docker installation
 docker version
 docker run hello-world
+
+# 11. Auto enable
+sudo systemctl enable docker
+
+# 12. Start docker if its not running.
+sudo systemctl start docker
