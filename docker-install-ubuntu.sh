@@ -31,7 +31,7 @@ sudo add-apt-repository \
 sudo apt-get update
 
 # 8. Install a specific version of docker
-sudo apt-get install docker-ce=17.12.0~ce-0~ubuntu
+sudo apt-get install docker-ce
 
 # 9. Add groups and users
 sudo groupadd docker
