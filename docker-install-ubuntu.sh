@@ -16,7 +16,7 @@ sudo apt-get install \
     software-properties-common
 
 # 4. Add the Docker Official GPG key to apt.
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
 # 5. Verify that you now have the Docker GPG key
 sudo apt-key fingerprint 0EBFCD88
