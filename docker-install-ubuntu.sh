@@ -41,6 +41,9 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 #Exit and log back in
 
+# run the following command to apply the group changes to your current session without logging out
+newgrp docker
+
 # 10. Verify docker installation
 docker version
 docker run hello-world
